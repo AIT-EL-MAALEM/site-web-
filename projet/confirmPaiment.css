@@ -1,0 +1,38 @@
+
+.confirmed {
+    margin: 0 auto;
+    width: 300px;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 30px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    box-shadow:0 0 10px rgba(0,0,0,0.4);
+    font-family: 'Oswald', sans-serif;
+}
+.confirmed h5 {
+    font-size: 50px;
+    margin: 0px;
+    color: #270053;
+}
+.confirmed p {
+    font-size: 20px;
+    padding: 20px 0;
+    font-weight: 300;
+}
+.confirmed span {
+    background: #00065a;
+    border-color: #4CAF50;
+    color: #fff;
+    font-size: 20px;
+    padding: 8px 45px;
+    border: 1px solid ;
+    border-radius: 4px;
+}
+
+a{
+    text-decoration: none;
+}

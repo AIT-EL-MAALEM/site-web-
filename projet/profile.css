@@ -1,0 +1,16 @@
+button{
+    margin: 20px 0;
+    display: block;
+    padding: .7rem 2rem;
+    opacity: .8;
+    color: #000;
+    background: #d5be8b;
+    border: none;
+    outline: none;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: .3s ease-in;
+    text-decoration: none;
+    text-decoration-color: none;
+}

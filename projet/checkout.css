@@ -1,0 +1,123 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle,
+     #8c8c8c, #a0a0a1, #b5b5b6, #cacacb, #e0e0e1, #e6e6e7,
+     #eceded, #f2f3f3, #eaeaeb, #e1e2e2, #d9d9da, #d1d1d1);
+}
+
+.title{
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.PayementMethods{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container{
+    background: #E2DEA9;
+    height: 700px;
+    width: 50%;
+    padding: 5px 25px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.473) 0 7px 29px 0;
+}
+
+
+.PayementMethods span , img{
+    font-family: helvetica;
+    font-size: larger;
+    margin: 0 30px;
+}
+
+.PayementMethods img{
+    margin-top: 10px;
+}
+
+.PayementMethods span{
+    color: #492900;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.content{
+    height: auto;
+    width: 90%;
+    padding: 20px;
+}
+
+.inputing{
+    padding: 10px;
+    height: auto;
+    width: 100%;
+}
+
+
+.inputing span{
+    font-family: helvetica;
+    font-size: larger;
+
+}
+
+.inputing input{
+    margin-top: 10px;
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+    border-radius: 10px;
+}
+
+.spec{
+    display: flex;
+    justify-items: center;
+    height: auto;
+    width: 100%;
+}
+
+.spec input{
+    width: 40%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.specDiv1{
+    display: inline;
+    float: left;
+}
+
+.specDiv2{
+    display: inline;
+}
+
+.submit-btn{
+    height: 30px;
+    width: 100%;
+    margin: 40px 10px auto auto;
+    font-size: 20px;
+    background-color: rgb(235, 235, 195);
+    border: 0;
+    border-radius: 5px;
+    
+}
+
+.submit-btn:hover{
+    transform: scale(1.03);
+    background-color: #b0cecc;
+}
+
+#warning{
+    text-align: center;
+    font-size: larger;
+    font-family: calibri;
+    color: rgb(0, 0, 0);
+    background-color: red;
+    visibility: hidden;
+}
